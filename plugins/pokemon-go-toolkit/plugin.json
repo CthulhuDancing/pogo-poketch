@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pokemon-go-toolkit",
+  "version": "0.3.1",
+  "description": "Look up Pokémon GO data, calculate CP, PvP IV ranks and power-up costs, and compare Pokémon sizes and Showcase potential.",
+  "author": {
+    "name": "CthulhuDancing"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Pokémon GO Toolkit",
+        "shortDescription": "Pokémon GO data & calculations",
+        "longDescription": "Find sourced information about Pokémon, forms, moves, PvP, and raids. Calculate CP, stats, league limits, IV ranks, and power-up costs. Use the Showcase skill to compare sizes, estimate scores, and help decide which Pokémon to keep.",
+        "developerName": "CthulhuDancing",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Calculate the league endpoint and IV rank for this Pokémon.",
+          "Compare the power-up costs for these Pokémon builds.",
+          "Use exact calculations to answer this incomplete Pokémon GO question."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+"""Mechanics constants used by the deterministic calculators."""
+
+CP_MIN = 10
+IV_MIN = 0
+IV_MAX = 15
+MIN_LEVEL = 1.0
+MAX_POWER_UP_LEVEL = 50.0
+MAX_BEST_BUDDY_LEVEL = 51.0
+MAX_ENCODED_LEVEL = 55.0
+LEVEL_STEP = 0.5
+
+LITTLE_CUP_CAP = 500
+GREAT_LEAGUE_CAP = 1500
+ULTRA_LEAGUE_CAP = 2500

@@ -1,0 +1,16 @@
+{
+  "name": "pokemon-go-toolkit",
+  "version": "0.3.1",
+  "description": "Look up Pokémon GO data, calculate CP, PvP IV ranks and power-up costs, and compare Pokémon sizes and Showcase potential.",
+  "author": {
+    "name": "CthulhuDancing"
+  },
+  "keywords": [
+    "pokemon-go",
+    "calculations",
+    "pvp",
+    "pve",
+    "showcase"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    {
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "name": "pokemon-go-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pokemon-go-toolkit"
+      }
+    }
+  ],
+  "name": "pogo-tools",
+  "interface": {
+    "displayName": "Pokémon GO Tools"
+  }
+}
